@@ -1,0 +1,16 @@
+{
+	"folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../portfolio"
+    },
+    {
+      "path": "../../MDB5"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "MDB5"
+  }
+}

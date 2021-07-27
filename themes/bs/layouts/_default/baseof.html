@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{- partial "head.html" . -}}
+    <body>
+      {{- partial "navbar.html" . -}}
+      {{- block "main" . }}{{- end }}
+      {{- partial "footer.html" . -}}
+    </body>
+    {{ $mdb := resources.Get "js/mdb.min.js" }}
+    {{ $bs := resources.Get "js/bs.js" }}
+    {{ $libs := slice $mdb $bs }}
+    {{ $js := $libs | resources.Concat "js/app.js" | minify | fingerprint }}
+    <script src="{{$js.RelPermalink}}" defer></script>
+</html>

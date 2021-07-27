@@ -1,3 +1,10 @@
 baseURL = "https://curlpgh.org/"
 languageCode = "en-us"
 title = "Pittsburgh Curling Club"
+theme = "bs"
+relativeURLS = true
+
+[module]
+  [[module.mounts]]
+    source = "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+    target = "assets/js/bootstrap.bundle.js"

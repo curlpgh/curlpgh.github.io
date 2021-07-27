@@ -1,0 +1,16 @@
+<head>
+  <title>{{ .Title }}</title>
+  <meta charset="utf-8">
+  <meta name="PITTSBURGH CURLING CLUB | Fun is just a stones throw away" content="" />
+  <meta name="author" content="Pittsburgh Curling Club" />
+  <meta name="description" content="Bringing the sport of curling to Southwestern Pennsylvania." />
+  <meta name="dc.relation" content="{{ .Site.BaseURL }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="theme-color" content="#1A94D2" />
+  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed") }}
+  {{ $style := resources.Get "css/main.scss" | toCSS  $options | minify }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
+</head>

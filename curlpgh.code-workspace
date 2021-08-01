@@ -4,13 +4,13 @@
       "path": "."
     },
     {
-      "path": "../portfolio"
+      "path": "../../bootswatch"
     },
     {
-      "path": "../../MDB5"
+      "path": "../../bootstrap-5.0.2"
     }
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "MDB5"
+    "liveServer.settings.multiRootWorkspaceName": "bootswatch"
   }
 }

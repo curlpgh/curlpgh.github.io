@@ -6,9 +6,9 @@
       {{- block "main" . }}{{- end }}
       {{- partial "footer.html" . -}}
     </body>
-    {{ $mdb := resources.Get "js/mdb.min.js" }}
+    {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
     {{ $bs := resources.Get "js/bs.js" }}
-    {{ $libs := slice $mdb $bs }}
+    {{ $libs := slice $bootstrap $bs }}
     {{ $js := $libs | resources.Concat "js/app.js" | minify | fingerprint }}
     <script src="{{$js.RelPermalink}}" defer></script>
 </html>

@@ -2,13 +2,14 @@
 <header>
   <!-- Background image -->
   <div class="text-center bg-image" id="header-bg-image">
-    <div class="mask" style="background-color: rgba(0, 0, 0, 0.5);">
+    <div class="mask">
       <div class="d-flex justify-content-center align-items-center h-100">
         <div class="text-white">
           <h1 class="mb-3">Pittsburgh Curling Club</h1>
           <div class="d-grid gap-2 d-md-block">
-            <a class="btn btn-outline-light btn-lg m-2" href="#!" role="button">Learn to Curl</a>
-            <a class="btn btn-outline-light btn-lg m-2" href="#!" role="button">Events</a>
+            <a class="btn btn-outline-light btn-lg m-2" href="/learn-to-curl" role="button">Learn to Curl</a>
+            <a class="btn btn-outline-light btn-lg m-2" href="/members" role="button">Memberships</a>
+            <a class="btn btn-outline-light btn-lg m-2" href="/group-events" role="button">Bonspiels</a>
           </div>
         </div>
       </div>
@@ -17,9 +18,9 @@
   <!-- Background image -->
 </header>
 <main>
-  <section class="divider py-5">
-    <div class="container-fluid">
-      <div class="row justify-content-center ">
+  <section class="bg-lighter py-3">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
         <div class="col-md-3 text-end">
           <p>
             Sign up to our email list to be notified of upcoming Learn-to-Curl opportunities
@@ -31,5 +32,6 @@
       </div>
     </div>
   </section>
+  {{ .Content }}
 </main>
 {{ end }}

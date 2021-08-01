@@ -4,7 +4,67 @@ title = "Pittsburgh Curling Club"
 theme = "bs"
 relativeURLS = true
 
-[module]
-  [[module.mounts]]
-    source = "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
-    target = "assets/js/bootstrap.bundle.js"
+[[menu.main]]
+  name = "Learn to Curl"
+  url = "/learn-to-curl"
+  weight = 1
+
+[[menu.main]]
+  name = "Members"
+  url = "/members"
+  weight = 2
+
+[[menu.main]]
+  name = "Group Events"
+  url = "/group-events"
+  weight = 3
+
+[[menu.main]]
+  name = "Fund Raising"
+  url = "/fund-raising"
+  weight = 4
+
+[[menu.main]]
+  name = "About"
+  weight = 5
+
+[[menu.main]]
+  name = "COVID"
+  url = "/covid"
+  weight = 6
+
+[[menu.main]]
+  name = "Board"
+  parent = "About"
+  url = "/about/board"
+  weight = 1
+
+[[menu.main]]
+  name = "Board Meetings"
+  parent = "About"
+  url = "/about/board-meetings"
+  weight = 2
+
+[[menu.main]]
+  name = "Bylaws / Policies"
+  parent = "About"
+  url = "/about/bylaws-policies"
+  weight = 3
+
+[[menu.main]]
+  name = "Minutes"
+  parent = "About"
+  url = "/minutes"
+  weight = 4
+
+[[menu.main]]
+  name = "Waiver"
+  parent = "About"
+  url = "/about/waiver"
+  weight = 5
+
+[[menu.main]]
+  name = "Contact"
+  parent = "About"
+  url = "/about/contact"
+  weight = 6

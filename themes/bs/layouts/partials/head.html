@@ -10,6 +10,6 @@
   <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed") }}
-  {{ $style := resources.Get "css/main.scss" | toCSS  $options | minify }}
+  {{ $style := resources.Get "css/main.scss" | toCSS  $options | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
 </head>

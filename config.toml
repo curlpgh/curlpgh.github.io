@@ -4,6 +4,11 @@ title = "Pittsburgh Curling Club"
 theme = "bs"
 relativeURLS = true
 
+[params]
+  twitter = "https://twitter.com/PghCurlingClub"
+  facebook = "https://www.facebook.com/pittsburghcurlingclub"
+  instagram = "https://www.instagram.com/pghcurling"
+
 [[menu.main]]
   name = "Learn to Curl"
   url = "/learn-to-curl"
@@ -11,8 +16,31 @@ relativeURLS = true
 
 [[menu.main]]
   name = "Members"
-  url = "/members"
   weight = 2
+
+[[menu.main]]
+  name = "Current Draw Info"
+  parent = "Members"
+  url = "/members/current-draw-info"
+  weight = 1
+
+[[menu.main]]
+  name = "Scheduling"
+  parent = "Members"
+  url = "/members/scheduling"
+  weight = 2
+
+[[menu.main]]
+  name = "Calendar"
+  parent = "Members"
+  url = "/members/calendar"
+  weight = 3
+
+[[menu.main]]
+  name = "2020-2021 Registration"
+  parent = "Members"
+  url = "/members/2020-2021-registration"
+  weight = 4
 
 [[menu.main]]
   name = "Group Events"
@@ -21,17 +49,29 @@ relativeURLS = true
 
 [[menu.main]]
   name = "Fund Raising"
-  url = "/fund-raising"
   weight = 4
+
+[[menu.main]]
+  name = "Donations"
+  parent = "Fund Raising"
+  url = "/fund-raising/donations"
+  weight = 1
+
+[[menu.main]]
+  name = "Giant Eagle Giftcards"
+  parent = "Fund Raising"
+  url = "/fund-raising/giant-eagle-giftcards"
+  weight = 2
+
+[[menu.main]]
+  name = "Amazon Smile"
+  parent = "Fund Raising"
+  url = "/fund-raising/amazon-smile"
+  weight = 3
 
 [[menu.main]]
   name = "About"
   weight = 5
-
-[[menu.main]]
-  name = "COVID"
-  url = "/covid"
-  weight = 6
 
 [[menu.main]]
   name = "Board"
@@ -68,3 +108,19 @@ relativeURLS = true
   parent = "About"
   url = "/about/contact"
   weight = 6
+
+[[menu.main]]
+  name = "COVID"
+  weight = 6
+
+[[menu.main]]
+  name = "COVID Response Plan"
+  parent = "COVID"
+  url = "/covid/covid-response-plan"
+  weight = 1
+
+[[menu.main]]
+  name = "Phased Reopening Plan"
+  parent = "COVID"
+  url = "/covid/phased-reopening-plan"
+  weight = 2

@@ -17,7 +17,7 @@ Donations may be mailed to:
 
 Checks only please, made out to Pittsburgh Curling Club
 
-Alternatively, you can give online on [this page](/fund-raising/online-donation.html).
+Alternatively, you can give online on [this page](/fund-raising/online-donation).
 
  
 > The official registration and financial information of the Pittsburgh Curling Club may be obtained from the Pennsylvania Department of State by calling toll-free, within Pennsylvania, 1-800-732-0999. Registration does not imply endorsement.

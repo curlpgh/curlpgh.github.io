@@ -16,22 +16,19 @@ We are located at:
     McKees Rocks, PA 15136  
 [Google Map](https://goo.gl/maps/ox3GJxEq5zDdMaMS6)
 
-**Executive Committee**  
-President: Steve Buffington steve.buffington@pittsburghcurlingclub.com  
-Vice President: Dustin Devine dustin.devine@pittsburghcurlingclub.com  
-Treasurer:  
-Secretary: Karyn Drombosky karyn.drombosky@pittsburghcurlingclub.com
+**Executive Committee** 
+President: Dustin Devine dustin.devine@pittsburghcurlingclub.com  
+Vice President: Mark Robinson mark.robinson@pittsburghcurlingclub.com  
+Treasurer: Daphne Roberts daphne.roberts@pittsburghcurlingclub.com  
+Secretary: Karyn Drombosky karyn.drombosky@pittsburghcurlingclub.com 
 
 **Board of Directors**  
-Nick Connolly  
+Steve Buffington steve.buffington@pittsburghcurlingclub.com  
+Nick Connolly nick.connolly@pittsburghcurlingclub.com  
+Burt Cubbison burt.cubbison@pittsburghcurlingclub.com  
 Travis Eiler travis.eiler@pittsburghcurlingclub.com  
-Len Jarabeck leonard.jarabeck@pittsburghcurlingclub.com  
-Minnie Meals  
-Kim O’Dell kim.odell@pittsburghcurlingclub.com  
-Daphne Roberts daphne.roberts@pittsburghcurlingclub.com  
-Mark Robinson mark.robinson@pittsburghcurlingclub.com  
+Len Jarabeck leonard.jarabeck@pittsburghcurlingclub.com   
 Marie Rose marie.rose@pittsburghcurlingclub.com  
-Harley Rohrbacher harley.rohrbacher@pittsburghcurlingclub.com
 
 **Departments**  
 Drawmaster/Ice Making: Steve Buffington drawmaster@pittsburghcurlingclub.com  

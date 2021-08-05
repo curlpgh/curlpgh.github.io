@@ -12,7 +12,7 @@ Secretary — Travis Eiler
 Treasurer — Daphne Roberts  
 
 Directors serving until 2022  
-Minnie Meals, Daphne Roberts, Mark Robinson, Marie Rose
+Burt Cubbison, Daphne Roberts, Mark Robinson, Marie Rose
 
 Directors serving to 2023  
 Steve Buffington, Nick Connolly, Dustin Devine, Travis Eiler

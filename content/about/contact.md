@@ -30,11 +30,3 @@ Travis Eiler travis.eiler@pittsburghcurlingclub.com
 Len Jarabeck leonard.jarabeck@pittsburghcurlingclub.com   
 Marie Rose marie.rose@pittsburghcurlingclub.com  
 
-**Departments**  
-Drawmaster/Ice Making: Steve Buffington drawmaster@pittsburghcurlingclub.com  
-Scheduling: Leonard Jarabeck scheduling@pittsburghcurlingclub.com  
-Membership: Leonard Jarabeck registration@pittsburghcurlingclub.com  
-Sponsorship Opportunities: Amanda Marchitelli sponsors@pittsburghcurlingclub.com  
-Fundraising: Amanda Marchitelli fundraising@pittsburghcurlingclub.com  
-Logo Shop: Amanda Marchitelli logoshop@pittsburghcurlingclub.com  
-Events: Marie Rose events@pittsburghcurlingclub.com  

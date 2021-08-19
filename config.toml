@@ -37,9 +37,9 @@ relativeURLS = true
   weight = 3
 
 [[menu.main]]
-  name = "2020-2021 Registration"
+  name = "Registration"
   parent = "Members"
-  url = "/members/2020-2021-registration"
+  url = "/members/registration"
   weight = 4
 
 [[menu.main]]
